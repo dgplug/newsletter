@@ -1,14 +1,14 @@
 {
-    "rss": {
-        "dgplug planet": {
+    "rss": [
+        {
             "name": "dgplug planet",
             "url": "http://planet.dgplug.org/atom.xml"
         },
-        "dgplug students planet": {
+        {
             "name": "dgplug students planet",
             "url": "http://students.planet.dgplug.org/atom.xml"
         }
-    },
+    ],
     "twitter": {
     }
 }

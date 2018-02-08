@@ -3,6 +3,7 @@ import json
 import feedparser
 import dateutil.parser as parser
 import datetime
+import pprint
 
 
 def get_rss_feeds(source, newer_than=None):
@@ -28,12 +29,15 @@ def main():
     resources = json.load(open('resources.json', 'r'))
 
     summaries = {}
-    for rss_source in resources['rss'].values():
+    for rss_source in resources['rss']:
         summaries[rss_source['name']] = get_rss_feeds(
             rss_source['url'],
             newer_than=two_weeks
         )
 
+    pprint.pprint(summaries)
+
 
 if __name__ == "__main__":
     main()
+    
