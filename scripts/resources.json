@@ -9,6 +9,10 @@
             "url": "http://students.planet.dgplug.org/atom.xml"
         }
     ],
-    "twitter": {
-    }
+    "twitter": [
+        {
+            "name": "twitter psf python news",
+            "url": "https://twitter.com/ThePSF/lists/python-news"
+        }
+    ]
 }
