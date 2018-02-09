@@ -1,4 +1,3 @@
-
 import json
 import feedparser
 import dateutil.parser as parser
@@ -11,7 +10,7 @@ from bs4 import BeautifulSoup
 def get_rss_feeds(source, newer_than=None):
     entries = feedparser.parse(source).entries
     if newer_than:
-        entries = [entry for entry in entries\
+        entries = [entry for entry in entries
                    if parser.parse(entry.updated).date() > newer_than]
 
     entry_summary = [
@@ -27,7 +26,7 @@ def get_rss_feeds(source, newer_than=None):
 
 
 def get_twitterlist_tweets(source, newer_than=None):
-    response = requests.get(source, headers = {"Accept-Language": "en-US"})
+    response = requests.get(source, headers={"Accept-Language": "en-US"})
     soup = BeautifulSoup(response.text, 'lxml')
     tweets = soup.find_all('li', attrs={"data-item-type": "tweet"})
 
@@ -35,7 +34,7 @@ def get_twitterlist_tweets(source, newer_than=None):
         tweets = [
             tweet for tweet in tweets
             if parser.parse(
-                    tweet.find('a', attrs={"class": "tweet-timestamp"}).text
+                tweet.find('a', attrs={"class": "tweet-timestamp"}).text
             ).date() > newer_than
         ]
 
