@@ -1,3 +1,6 @@
+import os
+import sys
+import argparse
 import json
 import feedparser
 import dateutil.parser as parser
@@ -53,9 +56,10 @@ def get_twitterlist_tweets(source, newer_than=None):
     return tweet_summary
 
 
-def main():
+def main(args):
     two_weeks = datetime.date.today() - datetime.timedelta(weeks=2)
-    resources = json.load(open('resources.json', 'r'))
+    path = os.path.dirname(__file__)
+    resources = json.load(open(os.path.join(path, 'resources.json'), 'r'))
 
     summaries = {}
     for rss_source in resources['rss']:
@@ -70,8 +74,45 @@ def main():
             newer_than=two_weeks
         )
 
-    pprint.pprint(summaries)
+    args.print(args.output, summaries)
+
+
+def print_json(output, summary):
+    json.dump(
+        summary,
+        open(output, 'w')
+    )
+
+def print_markdown(output, summary):
+    with open(output, 'w') as outstream:
+        for source, contents in summary.items():
+            if contents:
+                for item in contents:
+                    outstream.write(
+                        "[{} - {}]({})\n".format(
+                            item['author'],
+                            item['title'],
+                            item['link']
+                        )
+                    )
 
 
 if __name__ == "__main__":
-    main()
+    arg_parser = argparse.ArgumentParser(
+        description="Collect some news from selected resources"
+    )
+    arg_parser.add_argument(
+        'output',
+        help="Destination to print the output"
+    )
+    arg_parser.add_argument(
+        '--markdown',
+        dest='print',
+        action='store_const',
+        const=print_markdown,
+        default=print_json,
+        help="print the results in markdown format (default: json)"
+    )
+    args = arg_parser.parse_args()
+
+    main(args)
