@@ -1,0 +1,18 @@
+[unknown - Travel - Udupi, Karnataka](http://www.shakthimaan.com/posts/2018/02/14/udupi/news.html)
+[Anwesha Das - The danger of modern medical devices : Keynote by Karen Sandler at LCA 2018](http://anweshadas.in/the-danger-of-modern-medical-devices/)
+[Ashwani Gupta - How to use Flask-SQLAlchemy with Hasura PostgreSQL service](https://ashwanigblog.wordpress.com/2018/02/15/how-to-use-flask-sqlalchemy-with-hasura-postgresql-service/)
+[unknown - "You come up to the office and open up the file which has the reading links and you see..."](http://kshithijiyer.tumblr.com/post/170893857274)
+[unknown - Go Away](http://kshithijiyer.tumblr.com/post/170870268902)
+[PradhvanBisht - I am alive !](https://medium.com/@Pradhvan/i-am-alive-40317770655a?source=rss-db9d0854d49e------2)
+[unknown - Love you](http://kshithijiyer.tumblr.com/post/170825474670)
+[unknown - You are perfect for me!](http://kshithijiyer.tumblr.com/post/170802244419)
+[Vipul Gupta - Django Party #Investopad_HKV](https://mixstersite.wordpress.com/2018/02/10/django-party-investopad_hkv_pydladies/)
+[Abstract Learner (noreply@blogger.com) - Multi-tasking is a myth!](http://phi2infinity.blogspot.com/2018/02/multi-tasking-is-myth.html)
+[Abstract Learner (noreply@blogger.com) - Master the what?](http://phi2infinity.blogspot.com/2018/02/master-what.html)
+[Vivek Anand - Moving my blog from wordpress to AWS](https://vivekanandxyz.wordpress.com/2018/02/08/moving-my-blog-from-wordpress-to-aws/)
+[unknown - So I decided to go with a bit of orange this time.
+#RideSafe](http://kshithijiyer.tumblr.com/post/170646019814)
+[unknown - I can't express it!](http://kshithijiyer.tumblr.com/post/170570689862)
+[unknown - "Knowledge Transfer:
+Watching YouTube Videos all day in office with your Boss’s permission."](http://kshithijiyer.tumblr.com/post/170569766964)
+[unknown - "Honestly, any dumb idiot can analyze data by running a bunch of stupid GUI tools but to understand..."](http://kshithijiyer.tumblr.com/post/170568602954)
