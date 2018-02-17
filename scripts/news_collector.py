@@ -90,12 +90,14 @@ def get_github_issue_links(source="https://github.com/dgplug/newsletter", newer_
         comments = soup.find_all('div', {'class': 'comment'})
         for comment in comments:
             author = comment.find('a', {'class':'author'}).text
-            date = parser.parse(comment.find('relative-time').get('datetime')).date()
+            date = parser.parse(
+                comment.find('relative-time').get('datetime')
+            ).date()
             comment_links = comment.find('td', {'class': 'comment-body'}).find_all('a')
             for comment_link in comment_links:
                 links.append(
                     {
-                        'title': None,
+                        'title': comment_link.get('href'),
                         'author': author,
                         'date': date,
                         'link': comment_link.get('href')
