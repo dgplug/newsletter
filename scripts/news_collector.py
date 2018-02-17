@@ -1,5 +1,6 @@
 import os
 import sys
+import re
 import argparse
 import json
 import feedparser
@@ -7,6 +8,7 @@ import dateutil.parser as parser
 import datetime
 import pprint
 import requests
+import urllib.parse
 from bs4 import BeautifulSoup
 
 
@@ -56,6 +58,53 @@ def get_twitterlist_tweets(source, newer_than=None):
     return tweet_summary
 
 
+def get_github_issue_links(source="https://github.com/dgplug/newsletter", newer_than=None):
+    response = requests.get(source)
+    soup = BeautifulSoup(response.text, 'lxml')
+    # issue_count = int(
+    #     soup.find('a', {'href': '/dgplug/newsletter/issues'})\
+    #         .find('span', {'class': 'Counter'}).text
+    # )
+    # the above solution is dependent on dgplug/newsletter url
+    issue_count = int(
+        soup.find('nav', {'class': 'reponav'})(
+            text=re.compile(r'Issues')
+        )[0].parent.parent.find(
+            'span', {'class': "Counter"}
+        ).text
+    )
+
+    links = []
+    for i in range(1, issue_count + 1):
+        url = source + '/issues/{}'.format(i)
+        html = requests.get(url)
+        soup = BeautifulSoup(html.text, 'lxml')
+        title = soup.find('span', attrs={'class': 'js-issue-title'}).text
+        try:
+            date = parser.parse(title.split('release')[-1]).date()
+            if date < newer_than:
+                continue
+        except Exception as e:
+            continue
+
+        comments = soup.find_all('div', {'class': 'comment'})
+        for comment in comments:
+            author = comment.find('a', {'class':'author'}).text
+            date = parser.parse(comment.find('relative-time').get('datetime')).date()
+            comment_links = comment.find('td', {'class': 'comment-body'}).find_all('a')
+            for comment_link in comment_links:
+                links.append(
+                    {
+                        'title': None,
+                        'author': author,
+                        'date': date,
+                        'link': comment_link.get('href')
+                    }
+                )
+
+    return links
+
+
 def main(args):
     two_weeks = datetime.date.today() - datetime.timedelta(weeks=2)
     path = os.path.dirname(__file__)
@@ -73,6 +122,10 @@ def main(args):
             twitter_source['url'],
             newer_than=two_weeks
         )
+
+    summaries['github_comments'] = get_github_issue_links(
+        newer_than=two_weeks
+    )
 
     args.print(args.output, summaries)
 
