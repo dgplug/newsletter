@@ -66,18 +66,15 @@ def get_github_issue_links(source="https://github.com/dgplug/newsletter", newer_
     #         .find('span', {'class': 'Counter'}).text
     # )
     # the above solution is dependent on dgplug/newsletter url
-    issue_count = int(
-        soup.find('nav', {'class': 'reponav'})(
-            text=re.compile(r'Issues')
-        )[0].parent.parent.find(
-            'span', {'class': "Counter"}
-        ).text
-    )
 
     links = []
-    for i in range(1, issue_count + 1):
-        url = source + '/issues/{}'.format(i)
+    issue_count = 1
+    while True:
+        url = source + '/issues/{}'.format(issue_count)
         html = requests.get(url)
+        if html.status_code != 200:
+            break
+        issue_count += 1
         soup = BeautifulSoup(html.text, 'lxml')
         title = soup.find('span', attrs={'class': 'js-issue-title'}).text
         try:
@@ -107,8 +104,15 @@ def get_github_issue_links(source="https://github.com/dgplug/newsletter", newer_
     return links
 
 
-def main(args):
-    two_weeks = datetime.date.today() - datetime.timedelta(weeks=2)
+def main(args, **kwargs):
+    if args.date:
+        try:
+            two_weeks = parser.parse(args.date).date()
+        except:
+            print('could not parse date {}'.format(args.date))
+            sys.exit(0)
+    else:
+        two_weeks = datetime.date.today() - datetime.timedelta(weeks=2)
     path = os.path.dirname(__file__)
     resources = json.load(open(os.path.join(path, 'resources.json'), 'r'))
 
@@ -167,6 +171,11 @@ if __name__ == "__main__":
         const=print_markdown,
         default=print_json,
         help="print the results in markdown format (default: json)"
+    )
+    arg_parser.add_argument(
+        '--newer_than',
+        dest='date',
+        help="set date of the oldest content that should be included (default: 2 weeks before today)"
     )
     args = arg_parser.parse_args()
 
