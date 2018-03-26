@@ -173,7 +173,7 @@ if __name__ == "__main__":
         help="print the results in markdown format (default: json)"
     )
     arg_parser.add_argument(
-        '--newer_than',
+        '--newer-than',
         dest='date',
         help="set date of the oldest content that should be included (default: 2 weeks before today)"
     )
