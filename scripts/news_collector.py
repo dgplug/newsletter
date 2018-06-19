@@ -145,15 +145,22 @@ def print_json(output, summary):
 def print_markdown(output, summary):
     with open(output, 'w') as outstream:
         for source, contents in summary.items():
-            if contents:
-                for item in contents:
-                    outstream.write(
-                        "[{} - {}]({})\n".format(
-                            item['author'],
-                            item['title'],
-                            item['link']
-                        )
+            for idx, item in enumerate(contents):
+                outstream.write(
+                    "[{} - {}][{}_{}]\n".format(
+                        item['author'],
+                        item['title'],
+                        source,
+                        idx
                     )
+                )
+                outstream.write(
+                    "[{}_{}]: {}\n".format(
+                        source,
+                        idx,
+                        item['link']
+                    )
+                )
 
 
 if __name__ == "__main__":
