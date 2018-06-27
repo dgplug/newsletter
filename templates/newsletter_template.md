@@ -1,25 +1,23 @@
 
-# #DGPLUG Newsletter - YYYY-MM-DD
+dgplug Newsletter \#5
+============================================
 
 ![dgplug logo][img:logo]
 
-## Put top story and summary here
+Recent activities of \#dgplug members
+----------------------------------------------
 
-Lorem ipsum ....
+Further reading
+-------------------
 
-## What have the #dgplug members been up to?
+Did we miss something?
+---------------------------
 
-Show content of 
+Since this project is still in its infancy, we may have overlooked content that you would like to have included. We will work on constantly improving this letter and review external sources. If you think there is something we've missed, feel free to add your ideas for the [next issue][link:next_issue].
 
-- commits / merged PRs to FOSS projects
-- blogposts
-- #dgplug sessions and other channel activities
 
-## Further readings
-
-- news
-- external blog posts
-
-## Upcoming events
-
-[img:logo]: ./images/dgplug_logo.png
+[img:logo]: ../../static/img/dgplug_logo.png
+[link:dgplug]: https://dgplug.org
+[link:planet]: http://planet.dgplug.org
+[link:students_planet]: http://students.planet.dgplug.org
+[link:next_issue]: https://github.com/dgplug/newsletter/issues/11
