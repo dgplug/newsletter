@@ -4,22 +4,21 @@ dgplug Newsletter \#5
 
 ![dgplug logo][img:logo]
 
-The introduction of information technology has ever since challenged lawmakers and lawyers, as it does not compare to anything else our world was faced with so far. Suddenly, you could copy information and media of arbitrary types infinitely and without noteworthy costs.
+The introduction of information technology has ever since challenged lawmakers and lawyers, as it is in many aspects not comparable to anything else our world has seen before. Suddenly, you can copy information and media of arbitrary types infinitely and without noteworthy costs.
 
-As one of the earliest group to see its potential and implications, early hackers defined some general rules that evolved into the [Hacker ethic](https://en.wikipedia.org/wiki/Hacker_ethic), that promotes freedom of information and sharing of the same.
+As one of the earliest groups to see the potential computers and their implications on our lives, early hackers defined some general rules that evolved into the [Hacker Ethic](https://en.wikipedia.org/wiki/Hacker_ethic), that promotes freedom of information and sharing of the same.
 
-At the same time, lawmakers were constantly trying to control and restrict these new freedoms; The Computer Fraud and Abuse Act [CFAA](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) is an old but active and impresicisely worded law that, if put accordingly, can criminalize many every day activities today. Among others, it prohibits violations agains *Terms of Service* of websites. A prominent example is Aaron Swartz, who was accused of multiple Terms of Service violations before committing suicide in 2013. In 2018 a [US court now decided][github_comments_13], that automatic webscraping of publicly available information is not a crime, even if stated differently in the *Terms of Service*.
+At the same time, lawmakers were constantly trying to control and restrict these new freedoms; The Computer Fraud and Abuse Act [CFAA](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) is a somewhat dated and impresicisely worded but nevertheless active law, that, if put accordingly, can criminalize many of our every day activities today. Among others, it prohibits violations against *Terms of Service* of websites. As a prominent example, Aaron Swartz was accused of multiple terms of service violations before committing suicide in 2013. In 2018 a [US court now decided][github_comments_13], that automatic webscraping of publicly available information is not a crime, even if stated differently in the terms of service.
 
 While this is a small victory, it is still ridicoulous how lawmakers and terms of service cut our freedoms, obstruct research and lock away knowledge.
 
-[John Perry Barlow](https://en.wikipedia.org/wiki/John_Perry_Barlow) (JPB) was an american political activist and founding member of the EFF and the Freedom of the Press Foundation. Kushal had written a [blog post](https://kushaldas.in/posts/remembering-john-perry-barlow.html) about the symposium held after JPBs dearh. Being american may however not him the way he saw himself. In his [Declaration of Independence of Cyberspace][github_comments_11] he rather describes cyberspace as a non-physical space that is not bound to political or geographical borders, nor bound by their laws. He declares *us* as citizens of cyberspace that, given the unique nature of this digital world, that so significantly differs from the physical and political world, will create *our* rules respectively.
+[John Perry Barlow](https://en.wikipedia.org/wiki/John_Perry_Barlow) (JPB) was an american political activist and founding member of the [Electronic Frontier Foundation](https://eff.org) and the [Freedom of the Press Foundation](https://freedom.press). Kushal wrote a [blog post](https://kushaldas.in/posts/remembering-john-perry-barlow.html) about the symposium held after JPBs death earlier this year. However, being american may not have been the way JPB would have described himself. In his [Declaration of Independence of Cyberspace][github_comments_11] he rather declares cyberspace as a non-physical space, not bound to political or geographical borders, nor bound by their laws. He declares himself and *us* as citizens of this cyberspace. Given the unique nature of this digital world, that so significantly differs from the physical and political world, the declaration states, that *we* will create *our* rules in this space respectively, as this shall not be incumbent on a government.
 
 While we all are *citizens of both worlds* we should make the effort to harmonize their relationship. Being hackers, laws that are in conflict with our ethical codex should be opposed.
 
 Recent activities of \#dgplug members
 ----------------------------------------------
 
-- [Mario Jason Braganza - A Transcript of Seth Godin’s Akimbo Episode on Blogging][dgplug planet_0]: Seth Godin is a famous writer and blogger. This blog post is a transcript of an Akimbo podcast, where Seth talks about blogging as medium to say what you feel you need to say, and how to reach the audience.
 - [fardroid23 - Home Theatre!][dgplug planet_1]: Farhaan writes about how he and some friends put together some old/unused hardware to assemble a full blown home theatre using the Atomic Toolkit.
 - [Kushal Das - Tor Browser and Selenium][dgplug planet_4]: The Selenium WebDriver is a powerful tool for browser automation. This can be particularly helpful for automated tests of web sites and web apps. Kushal describes how to set up Selenium in Python to automate the Tor Browser.
 - [Kushal Das - PyQt5 thread example][dgplug planet_5]: PyQt5 is a Python driver for the popular Qt GUI development framework. Kushal describes how to use QThreads to perform lengthy operations without blocking the GUI.
@@ -31,7 +30,7 @@ Further reading
 -------------------
 
 - [kushaldas - https://www.eff.org/pages/tor-and-https][github_comments_12]: Using HTTPS and Tor Browser increases security and privacy while browsing the web. But how? This info page of the EFF colorfully explains what information is shared with (or can be extracted by) several parties (ISP, hackers, NSA etc.) when using different combinations of Tor Browser and HTTPS enabled or disabled.
-- [sayanchowdhury - https://manikos.github.io/how-pythons-import-machinery-works][github_comments_14]
+- [sayanchowdhury - https://manikos.github.io/how-pythons-import-machinery-works][github_comments_14]: Python imports can be tricky for beginners, when differenciating between packages, modules and classes and what of those to import. This simple but effectively written article starts with the basics of Python imports but also gives a much deeper insight into the python import machinery.
 - [jasonbraganza - https://www.bakadesuyo.com/2018/04/how-to-sleep-better/][github_comments_16]
 - [jasonbraganza - https://ryanholiday.net/to-everyone-who-asks-for-just-a-little-of-your-time-heres-what-it-costs-to-say-yes/][github_comments_17]
 - [jasonbraganza - https://arstechnica.com/science/2018/04/if-were-really-going-to-europa-nasa-needs-to-pick-a-rocket-soon/][github_comments_18]
