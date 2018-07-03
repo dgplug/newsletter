@@ -35,7 +35,7 @@ Further reading
 - [jasonbraganza - https://ryanholiday.net/to-everyone-who-asks-for-just-a-little-of-your-time-heres-what-it-costs-to-say-yes/][github_comments_17]
 - [jasonbraganza - https://arstechnica.com/science/2018/04/if-were-really-going-to-europa-nasa-needs-to-pick-a-rocket-soon/][github_comments_18]
 - [jasonbraganza - https://www.scotthyoung.com/blog/2018/04/17/commit-long-term-goals/][github_comments_21]
-- [Schubisu - https://www.theverge.com/2018/4/18/17253784/google-domain-fronting-discontinued-signal-tor-vpn][github_comments_22]
+- [Schubisu - https://www.theverge.com/2018/4/18/17253784/google-domain-fronting-discontinued-signal-tor-vpn][github_comments_22]: Although never an oficially supported feature, domain-fronting through Google has been widely used by other services to overcome censorship through internet blocks. Sadly, an update in Google's App Engine now removes this feature.
 - [jasonbraganza - https://www.fs.blog/2018/04/learning-barbara-oakley/][github_comments_23]
 
 Did we miss something?
