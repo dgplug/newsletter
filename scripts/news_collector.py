@@ -58,7 +58,10 @@ def get_twitterlist_tweets(source, newer_than=None):
     return tweet_summary
 
 
-def get_github_issue_links(source="https://github.com/dgplug/newsletter", newer_than=None):
+def get_github_issue_links(
+        source="https://github.com/dgplug/newsletter",
+        newer_than=None,
+        issue=None):
     response = requests.get(source)
     soup = BeautifulSoup(response.text, 'lxml')
     # issue_count = int(
@@ -77,11 +80,30 @@ def get_github_issue_links(source="https://github.com/dgplug/newsletter", newer_
         issue_count += 1
         soup = BeautifulSoup(html.text, 'lxml')
         title = soup.find('span', attrs={'class': 'js-issue-title'}).text
-        try:
-            date = parser.parse(title.split('release')[-1]).date()
-            if date < newer_than:
-                continue
-        except Exception as e:
+
+        skip = True
+
+        if skip and issue is not None:
+            print("searching {} for issue {}".format(title, issue)) 
+            match = re.search(r'.*#([0-9]+).*', title)
+            if match is not None:
+                try:
+                    print('found {}'.format(match.groups()))
+                    if int(match.groups()[0]) == int(issue):
+                        skip = False
+                except Exception as e:
+                    print(e)
+                    pass
+
+        if skip and newer_than is not None:
+            try:
+                date = parser.parse(title.split('release')[-1]).date()
+                if date >= newer_than:
+                    skip = False
+            except Exception as e:
+                pass
+                    
+        if skip:
             continue
 
         comments = soup.find_all('div', {'class': 'comment'})
@@ -130,7 +152,8 @@ def main(args, **kwargs):
         )
 
     summaries['github_comments'] = get_github_issue_links(
-        newer_than=two_weeks
+        newer_than=two_weeks,
+        issue=args.issue
     )
 
     args.print(args.output, summaries)
@@ -183,6 +206,11 @@ if __name__ == "__main__":
         '--newer-than',
         dest='date',
         help="set date of the oldest content that should be included (default: 2 weeks before today)"
+    )
+    arg_parser.add_argument(
+        '--github-issue',
+        dest='issue',
+        help="specify a github issue to be included in the search"
     )
     args = arg_parser.parse_args()
 
