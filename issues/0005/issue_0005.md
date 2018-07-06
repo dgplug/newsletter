@@ -31,12 +31,9 @@ Further reading
 
 - [kushaldas - https://www.eff.org/pages/tor-and-https][github_comments_12]: Using HTTPS and Tor Browser increases security and privacy while browsing the web. But how? This info page of the EFF colorfully explains what information is shared with (or can be extracted by) several parties (ISP, hackers, NSA etc.) when using different combinations of Tor Browser and HTTPS enabled or disabled.
 - [sayanchowdhury - https://manikos.github.io/how-pythons-import-machinery-works][github_comments_14]: Python imports can be tricky for beginners, when differenciating between packages, modules and classes and what of those to import. This simple but effectively written article starts with the basics of Python imports but also gives a much deeper insight into the python import machinery.
-- [jasonbraganza - https://www.bakadesuyo.com/2018/04/how-to-sleep-better/][github_comments_16]
-- [jasonbraganza - https://ryanholiday.net/to-everyone-who-asks-for-just-a-little-of-your-time-heres-what-it-costs-to-say-yes/][github_comments_17]
-- [jasonbraganza - https://arstechnica.com/science/2018/04/if-were-really-going-to-europa-nasa-needs-to-pick-a-rocket-soon/][github_comments_18]
-- [jasonbraganza - https://www.scotthyoung.com/blog/2018/04/17/commit-long-term-goals/][github_comments_21]
+- [jasonbraganza - https://www.bakadesuyo.com/2018/04/how-to-sleep-better/][github_comments_16]: Why do we need to sleep? What happens if we do not get enough sleep? And how can we sleep better? The history of hackers is a history of nights spend in front of a terminal. This article addresses a topic we should not neclect.
 - [Schubisu - https://www.theverge.com/2018/4/18/17253784/google-domain-fronting-discontinued-signal-tor-vpn][github_comments_22]: Although never an oficially supported feature, domain-fronting through Google has been widely used by other services to overcome censorship through internet blocks. Sadly, an update in Google's App Engine now removes this feature.
-- [jasonbraganza - https://www.fs.blog/2018/04/learning-barbara-oakley/][github_comments_23]
+[kushaldas - https://saveourprivacy.in/][github_comments_15]: The Right to Privacy has been declared a fundamental right for Indian citizens in 2017. The real debate however has just started. Still big companies and governments collect vast quantities of personal data that often is not secure, as recent examples have shown. This can be changed only by raising awareness. #SaveOurPrivacy is fighting for a privacy and data protection law in India, and they need your help!
 
 Did we miss something?
 ---------------------------
@@ -63,11 +60,6 @@ Since this project is still in its infancy, we may have overlooked content that 
 [github_comments_12]: https://www.eff.org/pages/tor-and-https
 [github_comments_13]: https://www.eff.org/deeplinks/2018/04/dc-court-accessing-public-information-not-computer-crime
 [github_comments_14]: https://manikos.github.io/how-pythons-import-machinery-works
-[github_comments_15]: https://www.akimbo.me
+[github_comments_15]: https://saveourprivacy.in/
 [github_comments_16]: https://www.bakadesuyo.com/2018/04/how-to-sleep-better/
-[github_comments_17]: https://ryanholiday.net/to-everyone-who-asks-for-just-a-little-of-your-time-heres-what-it-costs-to-say-yes/
-[github_comments_18]: https://arstechnica.com/science/2018/04/if-were-really-going-to-europa-nasa-needs-to-pick-a-rocket-soon/
-[github_comments_20]: https://www.fs.blog/2018/04/first-principles/
-[github_comments_21]: https://www.scotthyoung.com/blog/2018/04/17/commit-long-term-goals/
 [github_comments_22]: https://www.theverge.com/2018/4/18/17253784/google-domain-fronting-discontinued-signal-tor-vpn
-[github_comments_23]: https://www.fs.blog/2018/04/learning-barbara-oakley/
