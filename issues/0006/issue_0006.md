@@ -6,7 +6,7 @@ dgplug Newsletter \#6
 
 ## Why do we blog?
 
-Blogging is a versatile term. But what is a blog post anyway?
+Blogging is a versatile term and it's is a key topic during the dgplug Summertraining. We consider blogging a very important channel especially (though not exclusively) for programmers and engeneers. Now why is that? 
 
 ### Blogging is documentation
 We may be software developers, engeneers or freedom activists - we all write code and hack on things to make our life easier. Documentation is the key to make the effort we put into our projects available for other people - or even for ourselves after taking a look at the project after a long time. To make our chain of thoughts comprehensible and to make the path we took and decisions we considered obvious, we need to write them down.
@@ -21,19 +21,23 @@ Writing a blog post does not necessarily mean writing about tech stuff. Just the
 ### Blogging can be art
 Writing is a skill that can be trained to a high profession. A well written blog post is a good read, regardless of which topic it is about. As with every skill, practice makes perfect.
 
-Blogging is a big topic during the dgplug Summertraining. Now why is that? We consider blogging a very important channel to
+Jason Braganza did the dgplug [read the docs][link:on_blogging] section on blogging with detailed deliberation and guidance on the whys and hows of blogging. Some additional resources can be found here:
+
+- [Mario Jason Braganza - A Transcript of Seth Godin’s Akimbo Episode on Blogging][dgplug planet_0]: Seth Godin is a famous writer and blogger. This blog post is a transcript of an Akimbo podcast, where Seth talks about blogging as medium to say what you feel you need to say, and how to reach the audience.
+- [Mario Jason Braganza - Writing Day 33 - Akimbo][dgplug planet_6]: Akimbo is a podcast project by Seth Godin. Don't know yet? Jason at least is super excited about it, read to find out why.
+- [jasonbraganza - https://www.akimbo.me][github_comments_15]: Home of the Akimbo project by Seth Godin.
 
 
 Recent activities of \#dgplug members
 ----------------------------------------------
+Since July 2018 hundreds of blog posts have been added to the dgplug [planet][link:planet] and [students planet][link:students_planet]. Here's an excerpt of the most recent posts:
 
-Further reading
--------------------
-
-- [Mario Jason Braganza - A Transcript of Seth Godin’s Akimbo Episode on Blogging][dgplug planet_0]: Seth Godin is a famous writer and blogger. This blog post is a transcript of an Akimbo podcast, where Seth talks about blogging as medium to say what you feel you need to say, and how to reach the audience.
-- [Mario Jason Braganza - Writing Day 33 - Akimbo][dgplug planet_6]: Akimbo is a podcast project by Seth Godin. Don't know yet? Jason at least is super excited about it, read to find out why.
-- [jasonbraganza - https://www.akimbo.me][github_comments_15]
-- [jasonbraganza - https://www.fs.blog/2018/04/first-principles/][github_comments_20]
+- [Mario Jason Braganza - How To Remember Anything Forever][dgplug planet_0]: Reading and learning new things is one part, remembering those things another. Jason found another resource of guidance how to train your memory to remember things better.
+- [Kushal Das - Fedora 29 on Qubes OS][dgplug planet_1]: Qubes OS' approach to security is based on running applications of different trust levels in different virtual machines. The base system is funning Fedora, which released Version 29 lately.
+- [Kushal Das - Using Ansible to maintain your Qubes system][dgplug planet_2]:  Kushal writes about his approach of maintaining Qubes VMs with Ansible. This includes a new plugin for Ansible that is supposed to improve the Qubes OS automation toolkit.
+- [anuGupta - Enjoy octobers with Hacktoberfest][dgplug students planet_0]: It's not just about winning a free T-Shirt; the Hacktoberfest returned for the fifth time this year, to conduct a month-long Hackathon to boost open source contribution and to bring up projects quickly that last and improve on the long run.
+- [hellozee - Another year, nice one][dgplug students planet_1]: Kuntal shares impressions of the India Linux User Group - Delhi (ILUG-D), celebrating their second year after revival of the group.
+- [j605 - New Templates in Dolphin][dgplug students planet_2]: Are you missing some menu entries for your custom needs in your favourite applications? Here's a good example how to hack-in things that you need to improve your daily workflow.
 
 
 Did we miss something?
@@ -48,3 +52,17 @@ Since this project is still in its infancy, we may have overlooked content that 
 [link:planet]: http://planet.dgplug.org
 [link:students_planet]: http://students.planet.dgplug.org
 [link:next_issue]: https://github.com/dgplug/newsletter/issues/
+[link:on_blogging]: https://summertraining.readthedocs.io/en/latest/blogging.html
+
+
+[dgplug planet_0]: https://janusworx.com/seth-akimbo-blogging.html
+[dgplug planet_6]: https://mjbraganza.com/writing-day-33-akimbo/
+[github_comments_15]: https://www.akimbo.me
+[github_comments_20]: https://www.fs.blog/2018/04/first-principles/
+
+[dgplug planet_0]: https://janusworx.com/how-to-remember-anything-forever.html
+[dgplug planet_1]: https://kushaldas.in/posts/fedora-29-on-qubes-os.html
+[dgplug planet_2]: https://kushaldas.in/posts/using-ansible-to-maintain-your-qubes-system.html
+[dgplug students planet_0]: https://mylyfmycode.wordpress.com/2018/10/29/enjoy-octobers-with-hacktoberfest/
+[dgplug students planet_1]: http://www.hellozee.me/posts/ilugd-birthday/
+[dgplug students planet_2]: https://j605.tk/blog/post/shorts/new-templates-in-dolphin/
