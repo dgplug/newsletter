@@ -28,7 +28,10 @@ Respect privacy; yours as well as everybody else’s.
 ### Blogging can be art
 Writing is a skill that can be practiced to a high art. A well written blog post is a good read, regardless of which topic it is about. As with every skill, practice makes perfect.
 
-Jason Braganza did the dgplug [read the docs][link:on_blogging] section on blogging with detailed deliberation and guidance on the whys and hows of blogging. Some additional resources can be found here:
+Jason Braganza did the dgplug [read the docs][link:on_blogging] section on blogging with detailed deliberation and guidance on the whys and hows of blogging.  
+If you are new to blogging or writing in general, you’ll [find it ***very useful***][link:on_blogging]!
+
+Some additional resources can be found here:
 
 - [Mario Jason Braganza - A Transcript of Seth Godin’s Akimbo Episode on Blogging][dgplug planet_0]: Seth Godin is a famous writer and blogger. This blog post is a transcript of an Akimbo podcast, where Seth talks about blogging as medium to say what you feel you need to say, and how to reach the audience.
 - [Mario Jason Braganza - Writing Day 33 - Akimbo][dgplug planet_6]: Akimbo is a podcast project by Seth Godin. Don't know yet? Jason at least is super excited about it, read to find out why.
