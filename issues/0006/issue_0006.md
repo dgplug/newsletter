@@ -6,20 +6,27 @@ dgplug Newsletter \#6
 
 ## Why do we blog?
 
-Blogging is a versatile term and it's is a key topic during the dgplug Summertraining. We consider blogging a very important channel especially (though not exclusively) for programmers and engeneers. Now why is that? 
+Blogging is a versatile term and it’s a key topic during the dgplug Summertraining.  
+We count blogging amongst the very important skills for programmers and engineers.  
+Now why is that? 
 
 ### Blogging is documentation
-We may be software developers, engeneers or freedom activists - we all write code and hack on things to make our life easier. Documentation is the key to make the effort we put into our projects available for other people - or even for ourselves after taking a look at the project after a long time. To make our chain of thoughts comprehensible and to make the path we took and decisions we considered obvious, we need to write them down.
+We may be software developers, engineers or freedom activists - but we all write code and hack on things to make our lives easier.  
+Documentation is *the* key to make the effort we put into our projects, available for other people - or even ourselves when we return to our projects after a long time. To make our chain of thoughts comprehensible and to make the path we took, and decisions we considered, obvious, we need to write them down.
 
-There are many projects out there that have brilliant programmers and produce excellent software but lack in documentation and translation and in volunteers to do exactly that. It is a time consuming task and a sought-after skill. Blogging or documentation of the own progress on any problem is a valuable contribution to the FOSS community.
+There are many projects out there that have brilliant programmers and produce excellent software but lack good documentation and translation (and good volunteers to do exactly that.) It is a time consuming task and a sought-after skill. Blogging or documentation of progress on any problem is a valuable contribution to the FOSS community.
 
-There are no limits, a blog post can as well have the quality of a scientific report or paper.
+There are no limits, a blog post could range from a stream of consciousness rant to a page that has the quality of a scientific report or paper.
 
 ### Blogging can be personal
-Writing a blog post does not necessarily mean writing about tech stuff. Just the way it can be a relieve to talk to a friend about your feelings, it can be liberating to write things down and off your chest. You can share situations, impressions and opinions and help people that search the web for these topics with your experience. Nevertheless act with caution when giving information about your private life or other people, respect your end everyone else's privacy.
+Writing a blog post does not necessarily mean writing about tech stuff. Just the way it can be a relief to talk to a friend about your feelings, it can be liberating to write things down and get it off your chest.  
+You could share situations, impressions and opinions and help people that search the web for these topics with your experience.  
+
+It goes without saying that you need to act with caution when giving information about your private life or other people.  
+Respect privacy; yours as well as everybody else’s.
 
 ### Blogging can be art
-Writing is a skill that can be trained to a high profession. A well written blog post is a good read, regardless of which topic it is about. As with every skill, practice makes perfect.
+Writing is a skill that can be practiced to a high art. A well written blog post is a good read, regardless of which topic it is about. As with every skill, practice makes perfect.
 
 Jason Braganza did the dgplug [read the docs][link:on_blogging] section on blogging with detailed deliberation and guidance on the whys and hows of blogging. Some additional resources can be found here:
 
@@ -32,12 +39,12 @@ Recent activities of \#dgplug members
 ----------------------------------------------
 Since July 2018 hundreds of blog posts have been added to the dgplug [planet][link:planet] and [students planet][link:students_planet]. Here's an excerpt of the most recent posts:
 
-- [Mario Jason Braganza - How To Remember Anything Forever][dgplug planet_0]: Reading and learning new things is one part, remembering those things another. Jason found another resource of guidance how to train your memory to remember things better.
+- [Mario Jason Braganza - How To Remember Anything Forever][dgplug planet_0]: Reading and learning new things is one part, remembering those things another. Jason found another resource that guides you, how to train your memory to remember things better.
 - [Kushal Das - Fedora 29 on Qubes OS][dgplug planet_1]: Qubes OS' approach to security is based on running applications of different trust levels in different virtual machines. The base system is funning Fedora, which released Version 29 lately.
 - [Kushal Das - Using Ansible to maintain your Qubes system][dgplug planet_2]:  Kushal writes about his approach of maintaining Qubes VMs with Ansible. This includes a new plugin for Ansible that is supposed to improve the Qubes OS automation toolkit.
-- [anuGupta - Enjoy octobers with Hacktoberfest][dgplug students planet_0]: It's not just about winning a free T-Shirt; the Hacktoberfest returned for the fifth time this year, to conduct a month-long Hackathon to boost open source contribution and to bring up projects quickly that last and improve on the long run.
+- [anuGupta - Enjoy octobers with Hacktoberfest][dgplug students planet_0]: It's not just about winning a free T-Shirt; Hacktoberfest returned for the fifth time this year, to conduct a month-long Hackathon to boost open source contribution and to bring up projects quickly that last and improve on the long run.
 - [hellozee - Another year, nice one][dgplug students planet_1]: Kuntal shares impressions of the India Linux User Group - Delhi (ILUG-D), celebrating their second year after revival of the group.
-- [j605 - New Templates in Dolphin][dgplug students planet_2]: Are you missing some menu entries for your custom needs in your favourite applications? Here's a good example how to hack-in things that you need to improve your daily workflow.
+- [j605 - New Templates in Dolphin][dgplug students planet_2]: Are you missing some menu entries for your custom needs in your favourite applications? Here's a good example how to hack-in things that you need, to improve your daily workflow.
 
 
 Did we miss something?
