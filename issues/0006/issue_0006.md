@@ -16,10 +16,10 @@ Documentation is *the* key to make the effort we put into our projects, availabl
 
 There are many projects out there that have brilliant programmers and produce excellent software but lack good documentation and translation (and good volunteers to do exactly that.) It is a time consuming task and a sought-after skill. Blogging or documentation of progress on any problem is a valuable contribution to the FOSS community.
 
-There are no limits, a blog post could range from a stream of consciousness rant to a page that has the quality of a scientific report or paper.
+There are no limits; a blog post could range from a stream of consciousness rant, to a page that has the quality of a scientific report or paper.
 
 ### Blogging can be personal
-Writing a blog post does not necessarily mean writing about tech stuff. Just the way it can be a relief to talk to a friend about your feelings, it can be liberating to write things down and get it off your chest.  
+Writing a blog post does not necessarily mean writing about tech stuff. Just as it’s a relief to talk to a friend about your feelings, it can be liberating to write things down and get it off your chest.  
 You could share situations, impressions and opinions and help people that search the web for these topics with your experience.  
 
 It goes without saying that you need to act with caution when giving information about your private life or other people.  
@@ -32,17 +32,16 @@ Jason Braganza did the dgplug [read the docs][link:on_blogging] section on blogg
 
 - [Mario Jason Braganza - A Transcript of Seth Godin’s Akimbo Episode on Blogging][dgplug planet_0]: Seth Godin is a famous writer and blogger. This blog post is a transcript of an Akimbo podcast, where Seth talks about blogging as medium to say what you feel you need to say, and how to reach the audience.
 - [Mario Jason Braganza - Writing Day 33 - Akimbo][dgplug planet_6]: Akimbo is a podcast project by Seth Godin. Don't know yet? Jason at least is super excited about it, read to find out why.
-- [jasonbraganza - https://www.akimbo.me][github_comments_15]: Home of the Akimbo project by Seth Godin.
 
 
 Recent activities of \#dgplug members
 ----------------------------------------------
 Since July 2018 hundreds of blog posts have been added to the dgplug [planet][link:planet] and [students planet][link:students_planet]. Here's an excerpt of the most recent posts:
 
-- [Mario Jason Braganza - How To Remember Anything Forever][dgplug planet_0]: Reading and learning new things is one part, remembering those things another. Jason found another resource that guides you, how to train your memory to remember things better.
-- [Kushal Das - Fedora 29 on Qubes OS][dgplug planet_1]: Qubes OS' approach to security is based on running applications of different trust levels in different virtual machines. The base system is funning Fedora, which released Version 29 lately.
+- [Mario Jason Braganza - How To Remember Anything Forever][dgplug planet_3]: While reading and learning new things are one side of the coin, remembering those things is the other. Jason found another resource that guides you, how to train your memory to remember things better.
+- [Kushal Das - Fedora 29 on Qubes OS][dgplug planet_1]: Qubes OS’ approach to security is based on running applications of different trust levels in different virtual machines. The base system is running Fedora, which released Version 29 recently.
 - [Kushal Das - Using Ansible to maintain your Qubes system][dgplug planet_2]:  Kushal writes about his approach of maintaining Qubes VMs with Ansible. This includes a new plugin for Ansible that is supposed to improve the Qubes OS automation toolkit.
-- [anuGupta - Enjoy octobers with Hacktoberfest][dgplug students planet_0]: It's not just about winning a free T-Shirt; Hacktoberfest returned for the fifth time this year, to conduct a month-long Hackathon to boost open source contribution and to bring up projects quickly that last and improve on the long run.
+- [anuGupta - Enjoy octobers with Hacktoberfest][dgplug students planet_0]: It's not just about winning a free T-Shirt; Hacktoberfest returned for the fifth time this year, to conduct a month-long Hackathon to boost open source contribution and to bring up projects quickly that last and improve in the long run.
 - [hellozee - Another year, nice one][dgplug students planet_1]: Kuntal shares impressions of the India Linux User Group - Delhi (ILUG-D), celebrating their second year after revival of the group.
 - [j605 - New Templates in Dolphin][dgplug students planet_2]: Are you missing some menu entries for your custom needs in your favourite applications? Here's a good example how to hack-in things that you need, to improve your daily workflow.
 
@@ -67,7 +66,7 @@ Since this project is still in its infancy, we may have overlooked content that 
 [github_comments_15]: https://www.akimbo.me
 [github_comments_20]: https://www.fs.blog/2018/04/first-principles/
 
-[dgplug planet_0]: https://janusworx.com/how-to-remember-anything-forever.html
+[dgplug planet_3]: https://janusworx.com/how-to-remember-anything-forever.html
 [dgplug planet_1]: https://kushaldas.in/posts/fedora-29-on-qubes-os.html
 [dgplug planet_2]: https://kushaldas.in/posts/using-ansible-to-maintain-your-qubes-system.html
 [dgplug students planet_0]: https://mylyfmycode.wordpress.com/2018/10/29/enjoy-octobers-with-hacktoberfest/
